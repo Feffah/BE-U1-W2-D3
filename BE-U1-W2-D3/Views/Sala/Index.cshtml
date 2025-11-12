@@ -1,0 +1,19 @@
+﻿@model ListaSaleViewModel
+@{
+
+    <h1>@ViewBag.Titolo</h1>
+
+}
+
+
+<ol>
+    @foreach(Sala sala in Model.Sales)
+    {
+        <li>
+        <span>
+            @sala.Name - Posti Totali: @sala.NumeroPosti
+        </span>
+            <a class="nav-link text-dark" asp-controller="AcquistaBiglietti" asp-action="Index">Acquista biglietti</a>
+        </li>
+    }
+</ol>
