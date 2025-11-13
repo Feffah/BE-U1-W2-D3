@@ -9,5 +9,6 @@
         public string Lastname { get; set; }
 
         public string CF { get; set; }
+
     }
 }

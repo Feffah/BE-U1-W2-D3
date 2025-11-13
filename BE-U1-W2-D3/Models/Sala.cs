@@ -8,5 +8,7 @@
         public string Name { get; set; }
 
         public int NumeroPosti { get; set; }
+
+        public decimal PrezzoBase { get; set; }
     }
 }

@@ -13,7 +13,8 @@ namespace BE_U1_W2_D3.Controllers
             {
                 Id = 1,
                 Name = "Sala Nord",
-                NumeroPosti = 120
+                NumeroPosti = 120,
+                PrezzoBase = 8.00m
             }
             ,
 
@@ -21,7 +22,8 @@ namespace BE_U1_W2_D3.Controllers
              {
                 Id = 1,
                 Name = "Sala Est",
-                NumeroPosti = 120
+                NumeroPosti = 120,
+                PrezzoBase = 8.00m
             }
             ,
 
@@ -29,7 +31,8 @@ namespace BE_U1_W2_D3.Controllers
              {
                 Id = 1,
                 Name = "Sala Sud",
-                NumeroPosti = 120
+                NumeroPosti = 120,
+                PrezzoBase = 8.00m
             }
 
         };
